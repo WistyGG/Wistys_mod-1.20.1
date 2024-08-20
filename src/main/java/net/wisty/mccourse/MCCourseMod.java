@@ -1,6 +1,7 @@
 package net.wisty.mccourse;
 
 import com.mojang.logging.LogUtils;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -11,18 +12,23 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.wisty.mccourse.item.ModItems;
 import org.slf4j.Logger;
 
-// The value here should match an entry in the META-INF/mods.toml fil
-@Mod(MCCorseMod.MOD_ID)
-public class MCCorseMod {
+
+
+// The value here should match an entry in the META-INF/mods.toml file
+@Mod(MCCourseMod.MOD_ID)
+public class MCCourseMod {
     // Define mod id in a common place for everything to reference
     public static final String MOD_ID = "mccourse";
 
     private static final Logger LOGGER = LogUtils.getLogger();
 
-    public MCCorseMod() {
+    public MCCourseMod() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModItems.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -36,7 +42,11 @@ public class MCCorseMod {
     }
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
+            event.accept(ModItems.ALEXANDERITE);
+            event.accept(ModItems.RAW_ALEXANDERITE);
+            event.accept(ModItems.SUPERORE);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
@@ -50,7 +60,7 @@ public class MCCorseMod {
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
-          
+
         }
     }
 }
