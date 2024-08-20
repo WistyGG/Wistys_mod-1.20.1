@@ -1,5 +1,11 @@
 {
   "item.mccourse.alexanderite": "Alexanderite",
   "item.mccourse.raw_alexanderite": "Raw Alexanderite",
-  "item.mccourse.superore": "Super ore"
+  "item.mccourse.superore": "Super ore",
+
+  "block.mccourse.alexanderite_block": "Block of Alexanderite",
+  "block.mccourse.superore_block": "Block of Super ore",
+  "block.mccourse.raw_alexanderite_block": "Block of raw Alexanderite",
+
+  "creativetab.course_tab": "Wisty's Mod"
 }

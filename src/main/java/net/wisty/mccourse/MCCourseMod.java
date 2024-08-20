@@ -12,6 +12,8 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.wisty.mccourse.block.ModBlocks;
+import net.wisty.mccourse.item.ModCreativeModeTabs;
 import net.wisty.mccourse.item.ModItems;
 import org.slf4j.Logger;
 
@@ -30,6 +32,10 @@ public class MCCourseMod {
 
         ModItems.register(modEventBus);
 
+        ModCreativeModeTabs.register(modEventBus);
+
+        ModBlocks.register(modEventBus);
+
         modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);
@@ -46,6 +52,11 @@ public class MCCourseMod {
             event.accept(ModItems.ALEXANDERITE);
             event.accept(ModItems.RAW_ALEXANDERITE);
             event.accept(ModItems.SUPERORE);
+        }
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS){
+            event.accept(ModBlocks.ALEXANDERITE_BLOCK);
+            event.accept(ModBlocks.RAW_ALEXANDERITE_BLOCK);
+            event.accept(ModBlocks.SUPERORE_BLOCK);
         }
     }
 
