@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "mccourse:raw_alexanderite_block",
+    "mccourse:alexanderite_block",
+    "mccourse:alexanderite_ore",
+    "mccourse:deepslate_alexanderite_ore",
+    "mccourse:nether_alexanderite_ore",
+    "mccourse:end_stone_alexanderite_ore",
+    "mccourse:superore_block",
+    "mccourse:block_of_superore",
+    "mccourse:deepslate_block_of_superore"
+  ]
+}

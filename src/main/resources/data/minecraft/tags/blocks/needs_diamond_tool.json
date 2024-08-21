@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "mccourse:superore_block",
+    "mccourse:end_stone_alexanderite_ore",
+    "mccourse:block_of_superore",
+    "mccourse:deepslate_block_of_superore"
+  ]
+}

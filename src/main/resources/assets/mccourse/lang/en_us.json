@@ -6,6 +6,11 @@
   "block.mccourse.alexanderite_block": "Block of Alexanderite",
   "block.mccourse.superore_block": "Block of Super ore",
   "block.mccourse.raw_alexanderite_block": "Block of raw Alexanderite",
-
+  "block.mccourse.alexanderite_ore": "Alexanderite Ore",
+  "block.mccourse.nether_alexanderite_ore": "Nether Alexanderite Ore",
+  "block.mccourse.deepslate_alexanderite_ore": "Deepslate Alexanderite Ore",
+  "block.mccourse.end_stone_alexanderite_ore": "End stone Alexanderite Ore",
+  "block.mccourse.block_of_superore": "Raw block of superore",
+  "block.mccourse.deepslate_block_of_superore": "Raw block of deepslate Superore",
   "creativetab.course_tab": "Wisty's Mod"
 }

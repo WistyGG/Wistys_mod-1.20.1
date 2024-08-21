@@ -57,6 +57,12 @@ public class MCCourseMod {
             event.accept(ModBlocks.ALEXANDERITE_BLOCK);
             event.accept(ModBlocks.RAW_ALEXANDERITE_BLOCK);
             event.accept(ModBlocks.SUPERORE_BLOCK);
+            event.accept(ModBlocks.ALEXANDERITE_ORE);
+            event.accept(ModBlocks.DEEPSLATE_ALEXANDERITE_ORE);
+            event.accept(ModBlocks.NETHER_ALEXANDERITE_ORE);
+            event.accept(ModBlocks.END_STONE_ALEXANDERITE_ORE);
+            event.accept(ModBlocks.BLOCK_OF_SUPERORE);
+            event.accept(ModBlocks.DEEPSLATE_BLOCK_OF_SUPERORE);
         }
     }
 

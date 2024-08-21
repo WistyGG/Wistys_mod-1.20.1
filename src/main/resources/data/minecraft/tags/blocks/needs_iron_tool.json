@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "mccourse:raw_alexanderite_block",
+    "mccourse:alexanderite_block",
+    "mccourse:alexanderite_ore",
+    "mccourse:deepslate_alexanderite_ore",
+    "mccourse:nether_alexanderite_ore"
+  ]
+}

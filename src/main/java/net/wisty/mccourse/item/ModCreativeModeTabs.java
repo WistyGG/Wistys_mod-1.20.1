@@ -25,6 +25,12 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.ALEXANDERITE_BLOCK.get());
                         output.accept(ModBlocks.RAW_ALEXANDERITE_BLOCK.get());
                         output.accept(ModBlocks.SUPERORE_BLOCK.get());
+                        output.accept(ModBlocks.ALEXANDERITE_ORE.get());
+                        output.accept(ModBlocks.NETHER_ALEXANDERITE_ORE.get());
+                        output.accept(ModBlocks.DEEPSLATE_ALEXANDERITE_ORE.get());
+                        output.accept(ModBlocks.END_STONE_ALEXANDERITE_ORE.get());
+                        output.accept(ModBlocks.DEEPSLATE_BLOCK_OF_SUPERORE.get());
+                        output.accept(ModBlocks.BLOCK_OF_SUPERORE.get());
                     }).build());
 
     public static void register(IEventBus eventbus){
