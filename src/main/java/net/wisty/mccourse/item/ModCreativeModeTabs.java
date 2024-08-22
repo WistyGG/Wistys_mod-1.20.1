@@ -21,6 +21,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ALEXANDERITE.get());
                         output.accept(ModItems.RAW_ALEXANDERITE.get());
                         output.accept(ModItems.SUPERORE.get());
+                        output.accept(ModItems.METAL_DETECTOR.get());
+                        output.accept(ModItems.SUPER_STEAK.get());
 
                         output.accept(ModBlocks.ALEXANDERITE_BLOCK.get());
                         output.accept(ModBlocks.RAW_ALEXANDERITE_BLOCK.get());
@@ -31,6 +33,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.END_STONE_ALEXANDERITE_ORE.get());
                         output.accept(ModBlocks.DEEPSLATE_BLOCK_OF_SUPERORE.get());
                         output.accept(ModBlocks.BLOCK_OF_SUPERORE.get());
+                        output.accept(ModBlocks.SOUND_BLOCK.get());
+
                     }).build());
 
     public static void register(IEventBus eventbus){

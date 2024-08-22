@@ -2,6 +2,9 @@
   "item.mccourse.alexanderite": "Alexanderite",
   "item.mccourse.raw_alexanderite": "Raw Alexanderite",
   "item.mccourse.superore": "Super ore",
+  "item.mccourse.metal_detector": "Metal Detector",
+  "item.mccourse.super_steak": "Super Steak",
+
 
   "block.mccourse.alexanderite_block": "Block of Alexanderite",
   "block.mccourse.superore_block": "Block of Super ore",
@@ -12,5 +15,9 @@
   "block.mccourse.end_stone_alexanderite_ore": "End stone Alexanderite Ore",
   "block.mccourse.block_of_superore": "Raw block of superore",
   "block.mccourse.deepslate_block_of_superore": "Raw block of deepslate Superore",
-  "creativetab.course_tab": "Wisty's Mod"
+  "block.mccourse.sound_block": "Sound Block",
+
+  "creativetab.course_tab": "Wisty's Mod",
+
+  "item.mccourse.metal_detector.no_valuables": "No valuables found!"
 }
